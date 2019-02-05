@@ -1,0 +1,95 @@
+@CHARSET "utf-8";
+
+
+
+<script type="text/javascript">
+  $(document).ready(function () {
+    $("#carousel").featureCarousel({
+        // include options like this:
+        // (use quotes only for string values, and no trailing comma after last option)
+        // option: value,
+        // option: value
+    });
+  });
+</script>
+ 
+ .bg_primary{
+  background-color: rgba(255,255,255,0.5)
+ }
+
+.fondo{
+	background-image:url(assets/img/header.jpg);
+	background-repeat:no-repeat;
+	background-size:100% auto;
+	background-position:center;
+	height:400px;
+  }
+  .boton{
+	position:relative;
+	top:50%;
+	padding:10px;
+	font-size:18px;
+  }
+  @font-face {
+   	font-family: "AveriaSansLibre";
+   	src: url("fonts/AveriaSansLibre.ttf") format("truetype");
+  }
+  h1{
+	margin-bottom:0;
+  }
+  .asl{
+	font-family: 'AveriaSansLibre', cursive;
+	font-size:30px;
+  }
+  @media (max-width: 600px){
+   .carousel-caption{
+     display: none; 
+   }
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: rgb(66, 244, 203); 
+}
+footer {
+      background-color: #ccc;
+      padding: 25px;
+}
+.navbar-brand{
+    position:sticky;
+    z-index:999;
+    padding:2px 15px;
+}
+.carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+    min-height:200px;
+}
+.btn-link{
+	padding:0px;
+}
+
+h1{
+
+	letter-spacing:5px;
+	display: block;
+	text-transform: uppercase;
+	
+	color:black;
+
+	margin-top:0;
+	padding:15px;
+}
+.img1{
+  float: right;
+}
+
+.izq{
+  float: :left;
+  margin-right: 10px
+}
+
+.der{
+  float: right;
+  margin-left: 10px
+}
